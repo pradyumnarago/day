@@ -1,5 +1,7 @@
 # day
 A website that can tell the day of the week of a given date(year, month, date) . 
+<br><br>
+You can try using my website <a href="https://pradyumnarago.github.io/day/">here</a>
 <br>
 <br>
 Logic Explanation
