@@ -1,7 +1,7 @@
 # day
 A website that can tell the day of the week of a given date(year, month, date) . 
 <br><br>
-You can try using my website <a href="https://pradyumnarago.github.io/day/">here</a>
+You can try using my website <a href="[https://pradyumnarago.github.io/day/]">here</a>
 <br>
 <br>
 Logic Explanation
@@ -31,3 +31,5 @@ Considering leap years for February.
 Result Display: Once the day of the week is determined, the code displays the result on the webpage along with the entered date.
 <br><br>
 Thank You Message: Finally, a thank you message is displayed to the user, encouraging them to try again with a different date if desired.
+
+[https://pradyumnarago.github.io/day/]: ttps://pradyumnarago.github.io/day
