@@ -5,23 +5,8 @@ function year(){
         let d=parseInt(document.getElementById("date").value);
         let z=-1,i,status,e,rem,out,month;
         month=m;
-        for(i=1;i<=y;i++){
-            if(z==6){
-                z=0;
-            }else{
-                z=z+1;
-            }
-            if((((i)%4==0)&&((i)%100!=0))||((i)%400==0)){
-                status=1;
-                if(z==6){
-                    z=0;
-                }else{
-                    z=z+1;
-                }
-            }else{
-                status=0;
-            }
-        }
+        z=y+Math.floor(y/4)-2;
+        z=z%7;
         m=m.toLowerCase();
         if(m[0]=='j'){
             if(m[1]=='a'){
